@@ -4,16 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Website Title</title>
-    <!-- Optionally, add a link to a CSS file for styling -->
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        #particles-js {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
 </head>
 <body>
-    <!-- This div is where particles.js will render the particles -->
     <div id="particles-js"></div>
-
-    <!-- Link to the particles.js library -->
     <script src="particles.js"></script>
-    <!-- Your custom script to initialize particles.js -->
     <script src="app.js"></script>
 </body>
 </html>
